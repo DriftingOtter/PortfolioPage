@@ -5,7 +5,7 @@
     background-color: #141414;
     color: #FFFFFF;
     padding: 1em;
-    font-size: 2em;
+    font-size: 1em;
     font-family: "Rubik", "Arial", "sans-serif";
     font-weight: bold;
     overflow: hidden;
@@ -68,50 +68,68 @@ body {
     padding: 1em;
     border-radius: 2em;
     margin-bottom: 1em;
-    font-size: 2em;
+    font-size: 1em;
     font-family: "Rubik", "Arial", "sans-serif";
 }
 
 .blurb {
     color: #FFFFFF;
-    font-size: 3em;
+    font-size: 1.5em;
     font-family: "Rubik", "Arial", "sans-serif";
 }
 
 .intro-section {
     color: #FFFFFF;
-    font-size: 2em;
+    font-size: 1em;
     font-family: "Rubik", "Arial", "sans-serif";
 }
 
 
 .how-i-got-here-section{
     color: #FFFFFF;
-    font-size: 2em;
+    font-size: 1em;
     font-family: "Rubik", "Arial", "sans-serif";
 }
 
 .skills-section {
     color: #FFFFFF;
-    font-size: 2em;
+    font-size: 1em;
     font-family: "Rubik", "Arial", "sans-serif";
 }
 
 .project-section {
     color: #FFFFFF;
-    font-size: 2em;
+    font-size: 1em;
     font-family: "Rubik", "Arial", "sans-serif";
+}
+
+.smplFetch-image {
+    max-width: 60%;
+    height: auto;
+    width: auto;
+}
+
+.showMyKeys-image {
+    max-width: 70%;
+    height: auto;
+    width: auto;
+}
+
+.typr-image {
+    max-width: 30%;
+    height: auto;
+    width: auto;
 }
 
 .contact-section {
     color: #FFFFFF;
-    font-size: 2em;
+    font-size: 1em;
     font-family: "Rubik", "Arial", "sans-serif";
 }
 
 .goodbye-section {
     color: #FFFFFF;
-    font-size: 2em;
+    font-size: 1em;
     font-family: "Rubik", "Arial", "sans-serif";
 }
 .copy-left {
@@ -123,7 +141,7 @@ body {
     transform: scaleX(-1); 
     filter: FlipH; 
     -ms-filter: “FlipH”;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .footer {
