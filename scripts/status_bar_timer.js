@@ -1,3 +1,4 @@
+// Status Bar Timer Function
 function updateTime() {
     var currentTime = new Date();
     var hours = currentTime.getHours();
@@ -28,4 +29,3 @@ updateTime();
 
 // Call updateTime function every minute (60,000 milliseconds)
 setInterval(updateTime, 60000);
-

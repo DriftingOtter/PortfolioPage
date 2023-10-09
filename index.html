@@ -11,6 +11,9 @@
 
         <!--Google Fonts API-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+        <!--Font Awesome API-->
+        <script src="https://kit.fontawesome.com/2ad54d8774.js" crossorigin="anonymous"></script>
+
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -23,28 +26,32 @@
             <div class="status-bar">
 
                 <!-- Wifi Icon -->
-                <div class="wifi-icon">WiFi</div>
+                <div class="fa-solid fa-wifi fa-xl"></div>
 
                 <!-- Time Widget -->
                 <div class="time-widget" id="currentTime"></div>
 
                 <!-- Fake Battery Percentage -->
-                <div class="battery">Battery:85%</div>
+                <div class="fa-solid fa-battery-three-quarters fa-xl"></div>
 
             </div>
 
 
             <div class="contact-bar">
+                <i class="fa-solid fa-chevron-left fa-xl"></i>
+                <div>
                 <h1 class="contact-name">Daksh</h1>
                 <a href="https://github.com/DriftingOtter" target="_self">
                     <img class="contact-image" src="https://avatars.githubusercontent.com/u/112343623?v=4" width="80">
                 </a>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
             </div>
 
         </div>
 
         <!--Enable The Status Bar Time Script-->
-        <script src="scripts/script.js"></script>
+        <script src="scripts/status_bar_timer.js"></script>
 
 
 
@@ -62,7 +69,7 @@
 
                 <h1> > My name is Daksh Kaul. </h1>
 
-                <p style="text-align:justify;">I'm Daksh Kaul, an enthusiastic programmer eager to explore the vast world of coding. I have just embarked on this exciting path, honing my skills in various programming languages and technologies such as Python, C, SQL, HTML, CSS, Rust*, and Git. My journey has equipped me with essential skills in algorithms, data structures, computer science, and more. I am also well-versed in subjects like Physics, Statistics, Mathematics, English, and Spanish, thanks to my International Baccalaureate (IB) background. Additionally, I hold Microsoft Certification in Word and PowerPoint, and I have a solid understanding of UNIX-based systems like Linux.</p>
+                <p style="text-align:justify;">I'm Daksh Kaul, an <span style="font-weight:bold;">enthusiastic, eager, and easy-going</span> programmer who's exploring the vast world of coding. I have just embarked on this exciting path, honing my skills in various programming languages and technologies such as <span style="font-weight:bold;">Python, C, SQL, HTML, CSS, Rust*, and Git.</span> My journey has equipped me with essential skills in algorithms, data structures, computer science, and more. I am also well-versed in subjects like Physics, Statistics, Mathematics, English, and Spanish, thanks to my <span style="font-weight:bold;">International Baccalaureate (IB)</span> background. Additionally, I hold Microsoft Certification in Word and PowerPoint, and I have a solid understanding of UNIX-based systems like Linux.</p>
             </div>
 
 
@@ -111,7 +118,7 @@
 
                 <dl>
                     <dt for="Skill 1">
-                        <span style="font-size: 4em; vertical-align: middle;">[x]</span> Back-end Dev
+                        <span class="fa-solid fa-caret-right fa-xl" style="font-size:2em;"></span> Back-end Dev
                     </dt>
 
                     <dd for="Skill 1">
@@ -120,7 +127,7 @@
 
 
                     <dt for="Skill 2">
-                        <span style="font-size: 4em; vertical-align: middle;">[x]</span> Basic Front-end Dev
+                        <span class="fa-solid fa-caret-right fa-xl" style="font-size:2em;"></span> Basic Front-end Dev
                     </dt>
 
                     <dd for="Skill 2">
@@ -129,7 +136,7 @@
 
 
                     <dt for="Skill 3">
-                        <span style="font-size: 4em; display:inline-block; vertical-align: middle;">[x]</span> Database Management
+                        <span class="fa-solid fa-caret-right fa-xl" style="font-size:2em;"></span> Database Management
                     </dt>
 
                     <dd for="Skill 3">
@@ -138,7 +145,7 @@
 
 
                     <dt for="Skill 4">
-                        <span style="font-size: 4em; display:inline-block; vertical-align: middle;">[x]</span> People Management Skills
+                        <span class="fa-solid fa-caret-right fa-xl" style="font-size:2em;"></span> People Management Skills
                     </dt>
 
                     <dd for="Skill 4">
@@ -195,30 +202,24 @@
                 <ul>
                     <h2> >> Here. Don't be a stranger! </h2>
                 </ul>
-                <nav class="nav-bar">
-                    <a href="mailto:dakshkaul7790@gmail.com" target="_blank">
-                        Mail
-                    </a>
 
-                    |
+                <div class="nav-bar">
+                    <button class="mail-btn" id="mail-btn">
+                        <i class="fa-solid fa-envelope fa-xl"></i> Mail
+                    </button>
 
-                    <a href="https://www.linkedin.com/in/daksh-kaul-311839231/" target="_blank">
-                        LinkedIn
-                    </a>
+                    <button class="linkedin-btn" id="linkedin-btn">
+                        <i class="fa-brands fa-linkedin fa-xl"></i> LinkedIn
+                    </button>
 
-                    |
-
-                    <a href="https://github.com/DriftingOtter" target="_blank">
-                        Github
-                    </a>
-
-                    |
-
-                    <a href="" target="_blank">
-                        Socials
-                    </a>
-                </nav>
+                    <button class="github-btn" id="github-btn">
+                        <i class="fa-brands fa-square-github fa-xl"></i> GitHub
+                    </button>
+                </div>
             </div>
+
+            <!--Contact Button Script-->
+            <script src="scripts/contact_buttons.js"></script>
 
 
             <br>
