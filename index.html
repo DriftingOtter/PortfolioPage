@@ -7,170 +7,242 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Daksh Kaul, Portfolio Page, DriftingOtter, Daksh Portfolio">
 
-        <title>Daksh's Portfolio Showcase</title>
+        <title>Portfolio Page</title>
+
+        <!--Google Fonts API-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+        <link rel="stylesheet" href="style.css">
     </head>
 
 
     <body>
 
-        <div>
-            <h1>Welcome, glad you could make it.</h1>
+        <div class="phone-bar">
+
+            <!-- Status Bar -->
+            <div class="status-bar">
+
+                <!-- Wifi Icon -->
+                <div class="wifi-icon">WiFi</div>
+
+                <!-- Time Widget -->
+                <div class="time-widget" id="currentTime"></div>
+
+                <!-- Fake Battery Percentage -->
+                <div class="battery">Battery:85%</div>
+
+            </div>
+
+
+            <div class="contact-bar">
+                <h1 class="contact-name">Daksh</h1>
+                <a href="https://github.com/DriftingOtter" target="_self">
+                    <img class="contact-image" src="https://avatars.githubusercontent.com/u/112343623?v=4" width="80">
+                </a>
+            </div>
+
         </div>
+
+        <!--Enable The Status Bar Time Script-->
+        <script src="scripts/script.js"></script>
+
+
+
+        <div class="message-app">
+            <div class="blurb">
+                <h1>Welcome, glad you could make it.</h1>
+            </div>
+
+
+            <br>
+            <br>
+
+
+            <div class="intro-section">
+
+                <h1> > My name is Daksh Kaul. </h1>
+
+                <p style="text-align:justify;">I'm Daksh Kaul, an enthusiastic programmer eager to explore the vast world of coding. I have just embarked on this exciting path, honing my skills in various programming languages and technologies such as Python, C, SQL, HTML, CSS, Rust*, and Git. My journey has equipped me with essential skills in algorithms, data structures, computer science, and more. I am also well-versed in subjects like Physics, Statistics, Mathematics, English, and Spanish, thanks to my International Baccalaureate (IB) background. Additionally, I hold Microsoft Certification in Word and PowerPoint, and I have a solid understanding of UNIX-based systems like Linux.</p>
+            </div>
+
+
+            <br>
+            <br>
+
+
+            <div class="how-i-got-here-section">
+
+                <h1> >> How did you get here? </h1>
+
+
+                <p style="text-align:justify;">How Did I Get Here?</p>
+                
+                <p style="text-align:justify;">Thats a though question to answer...</p>
+
+                <p style="text-align:justify;">
+                Growing up, my life was marked by constant change. Moving from place to place as a child taught me the invaluable skill of adaptation, not just to new environments but also to the diverse people and cultures I encountered. This ability to embrace change and connect with others has shaped my perspective and approach to life.
+                </p>
+                
+                <p style="text-align:justify;">
+                Interestingly, I used to despise coding and programming. It seemed like an impenetrable maze of complexities that I was convinced I could never navigate. However, curiosity got the better of me, and one day, I decided to give it a shot on my own. To my surprise, I found an entirely new world waiting for me. Coding became more than just lines of text; it became a canvas for creativity and problem-solving.
+                </p>
+
+                <p style="text-align:justify;">
+                My educational journey further fueled my passion. Pursuing the International Baccalaureate (IB) program in high school provided me with a holistic understanding of various subjects, from mathematics and physics to languages and statistics. This diverse knowledge laid a strong foundation for my venture into the realm of programming.
+                </p>
+
+                <p style="text-align:justify;">
+                So, how did I get here? Through a blend of adaptability, curiosity, and the willingness to challenge my own preconceptions. The detours and unexpected paths I took ultimately led me to discover my passion for programming, turning a once-dreaded endeavor into an exciting adventure. Now, as an aspiring programmer and enthusiastic learner, I am here, ready to explore the limitless possibilities this journey has to offer.
+                </p>
+            </div>
+
+
+            <br>
+            <br>
+
+
+            <div class="skills-section">
+
+                <h1> > Skills? </h1>
+                <ul>
+                    <h2> >> I got some interesting ones to offer! </h2>
+                </ul>
+
+
+                <dl>
+                    <dt for="Skill 1">
+                        <span style="font-size: 4em; vertical-align: middle;">[x]</span> Back-end Dev
+                    </dt>
+
+                    <dd for="Skill 1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </dd>
+
+
+                    <dt for="Skill 2">
+                        <span style="font-size: 4em; vertical-align: middle;">[x]</span> Basic Front-end Dev
+                    </dt>
+
+                    <dd for="Skill 2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </dd>
+
+
+                    <dt for="Skill 3">
+                        <span style="font-size: 4em; display:inline-block; vertical-align: middle;">[x]</span> Database Management
+                    </dt>
+
+                    <dd for="Skill 3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </dd>
+
+
+                    <dt for="Skill 4">
+                        <span style="font-size: 4em; display:inline-block; vertical-align: middle;">[x]</span> People Management Skills
+                    </dt>
+
+                    <dd for="Skill 4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </dd>
+                </dl>
+            </div>
+
+
+            <br>
+            <br>
+
+
+            <div class="project-section">
+
+                <h2> > Hey, wanna see some of my projects? </h2>
+                <ul>
+                    <h2> >> Here are some! </h2>
+                </ul>
+
+                    <!--Project List-->
+                    <h2>
+                        smplFetch
+                    </h2>
+                    <img src="https://github.com/DriftingOtter/smplFetch/blob/main/smplFetch_C_Py.png?raw=true" width=1000>
+                    <h3 style="text-align:justify;"> 
+                        >>> A simple to use system info fetch script for Linux, which includes basic and commonly used information for the user to display. It also includes - depending on fetch script version - different styles of header art.
+                    </h3>
+
+                    <h2>
+                        ShowMyKeys
+                    </h2>
+                    <img src="https://github.com/DriftingOtter/ShowMyKeys/blob/master/ShowMyKeys_Banner_CURRENT.png?raw=true" width=1000>
+                    <h3 style="text-align:justify;"> 
+                        >>> ShowMyKeys creates a graphical keyboard using Tkinter and pynput modules, allowing you to visualize your keyboard presses in real-time. The GUI updates to show when a key is pressed or released, giving you a visual representation of your typing, this can be useful for learning to touch type or for streamers wanting to display their speedy combos to their viewers.
+                    </h3>
+
+                    <h2>
+                        Typr: Your Personal Typing Tutor
+                    </h2>
+                    <img src="https://github.com/DriftingOtter/Typr/blob/master/TyprFlt/Typr/assets/images/Astro_Typing.png?raw=true" width=1000>
+                    <h3 style="text-align:justify;"> 
+                        >>> Typr is a Flutter-based app built in Flet, designed for touch typing instruction, promoting typing best practices, optimizing hand and body posture. It offers various typing tests and tracks your progress in a profile section with an SQL database.
+                    </h3>
+            </div>
+
+
+            <br>
+            <br>
+
+
+            <div class="contact-section">
+                <h2> > Wanna Contact Me? </h2>
+                <ul>
+                    <h2> >> Here. Don't be a stranger! </h2>
+                </ul>
+                <nav class="nav-bar">
+                    <a href="mailto:dakshkaul7790@gmail.com" target="_blank">
+                        Mail
+                    </a>
+
+                    |
+
+                    <a href="https://www.linkedin.com/in/daksh-kaul-311839231/" target="_blank">
+                        LinkedIn
+                    </a>
+
+                    |
+
+                    <a href="https://github.com/DriftingOtter" target="_blank">
+                        Github
+                    </a>
+
+                    |
+
+                    <a href="" target="_blank">
+                        Socials
+                    </a>
+                </nav>
+            </div>
+
+
+            <br>
+            <br>
+
+
+            <div class="goodbye-section">
+                <h1> > Let's talk again soon. Bye! </h1>
+            </div>
+
+    </div>
 
         <br>
         <br>
 
-        <div>
-            <h2> > My name is Daksh Kaul. </h2>
-
-            <h3>
-                <span style="font-size: 4em;">|</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </h3>
-        </div>
-
-        <div>
-            <h2> >> Here's how I got here... </h2>
-
+        <footer class="footer">
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer eget aliquet nibh praesent tristique magna sit amet. Ut lectus arcu bibendum at varius vel pharetra vel turpis. Nibh ipsum consequat nisl vel. Feugiat vivamus at augue eget arcu dictum varius duis. Facilisi cras fermentum odio eu feugiat pretium nibh. Orci dapibus ultrices in iaculis nunc sed augue. Lectus mauris ultrices eros in cursus turpis massa tincidunt dui. Est velit egestas dui id ornare arcu odio. Sollicitudin nibh sit amet commodo nulla facilisi nullam. Nunc mi ipsum faucibus vitae. Aliquet risus feugiat in ante metus. Egestas quis ipsum suspendisse ultrices. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Non sodales neque sodales ut etiam. Tortor consequat id porta nibh venenatis cras sed felis. Vel pharetra vel turpis nunc eget lorem. Nec tincidunt praesent semper feugiat. In fermentum posuere urna nec tincidunt praesent semper feugiat nibh. Mi ipsum faucibus vitae aliquet nec ullamcorper.
+                <span class="copy-left">&copy;</span> 
+                2023 Daksh Kaul | 
+                Hosted By: 
+                <a href="https://pages.github.com/" target="_self">Github Pages</a> | 
+                A Portfolio Page By: 
+                <a href="https://github.com/DriftingOtter" target="_self">Daksh Kaul // DriftingOtter</a>
             </p>
-        </div>
-
-        <br>
-        <br>
-
-        <div>
-            <h2> > Skills? </h2>
-            <h2> >> I got some interesting ones to offer! </h2>
-
-            <dl>
-                <dt for="Skill 1">
-                    Skill 1
-                </dt>
-
-                <dd for="Skill 1">
-                    <span style="font-size: 2em;">[x]</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </dd>
-
-
-                <dt for="Skill 2">
-                    Skill 2
-                </dt>
-
-                <dd for="Skill 2">
-                    <span style="font-size: 2em;">[x]</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </dd>
-
-
-                <dt for="Skill 3">
-                    Skill 3
-                </dt>
-
-                <dd for="Skill 3">
-                    <span style="font-size: 2em;">[x]</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </dd>
-
-
-                <dt for="Skill 4">
-                    Skill 4
-                </dt>
-
-                <dd for="Skill 4">
-                    <span style="font-size: 2em;">[x]</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </dd>
-            </dl>
-        </div>
-
-        <br>
-        <br>
-
-        <div>
-            <h2> > Hey, wanna see some of my projects? </h2>
-            <h2> >> Here are some! </h2>
-
-            <table>
-                <header>
-                    <thead for="Project 1">
-                        Project 1
-                    </thead>
-
-                    <thead for="Porject 2">
-                        Project 2
-                    </thead>
-
-                    <thead for="Project 3">
-                        Project 3
-                    </thead>
-                </header>
-
-                <td for="Project 1">
-                    <img src="https://avatars.githubusercontent.com/u/112343623?v=4" width=500>
-                    <h3> 
-                        >>> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </h3>
-                </td>
-
-                <td for="Project 2">
-                    <img src="https://avatars.githubusercontent.com/u/112343623?v=4" width=500>
-                    <h3> 
-                        >>> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </h3>
-                </td>
-
-                <td for="Project 3">
-                    <img src="https://avatars.githubusercontent.com/u/112343623?v=4" width=500>
-                    <h3> 
-                        >>> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </h3>
-                </td>
-            </table>
-        </div>
-
-        <br>
-        <br>
-
-        <div>
-            <h2> > Wanna Contact Me? </h2>
-            <h2> >> Here. Don't be a stranger! </h2>
-
-            <nav>
-                <a href="mailto:dakshkaul7790@gmail.com" target="_blank">
-                    Mail
-                </a>
-
-                |
-
-                <a href="https://www.linkedin.com/in/daksh-kaul-311839231/" target="_blank">
-                    LinkedIn
-                </a>
-
-                |
-
-                <a href="https://github.com/DriftingOtter" target="_blank">
-                    Github
-                </a>
-
-                |
-
-                <a href="" target="_blank">
-                    Socials
-                </a>
-            </nav>
-        </div>
-
-        <br>
-        <br>
-
-        <div>
-            <h1> > Let's talk again soon. Bye! </h1>
-        </div>
-       
-        <br>
-        <br>
-
-        <footer>
-            <p>&copy; 2023 Daksh Kaul | Hosted By: <a href="https://pages.github.com/" target="_self">Github Pages</a> | A Portfolio Page By: <a href="https://github.com/DriftingOtter" target="_self">Daksh Kaul // DriftingOtter</a></p>
         </footer>
     </body>
-  
 </html>
