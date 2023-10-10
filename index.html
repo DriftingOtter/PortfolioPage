@@ -56,7 +56,8 @@
 
 
         <div class="message-app">
-            <div class="blurb">
+
+            <div class="blurb-bubble">
                 <h1>Welcome, glad you could make it.</h1>
             </div>
 
@@ -67,9 +68,9 @@
 
             <div class="intro-section">
 
-                <h1> > My name is Daksh Kaul. </h1>
+                <h1 class="name-bubble"> > My name is Daksh Kaul. </h1>
 
-                <p style="text-align:justify;">I'm Daksh Kaul, an <span style="font-weight:bold;">enthusiastic, eager, and easy-going</span> programmer who's exploring the vast world of coding. I have just embarked on this exciting path, honing my skills in various programming languages and technologies such as <span style="font-weight:bold;">Python, C, SQL, HTML, CSS, Rust*, and Git.</span> My journey has equipped me with essential skills in algorithms, data structures, computer science, and more. I am also well-versed in subjects like Physics, Statistics, Mathematics, English, and Spanish, thanks to my <span style="font-weight:bold;">International Baccalaureate (IB)</span> background. Additionally, I hold Microsoft Certification in Word and PowerPoint, and I have a solid understanding of UNIX-based systems like Linux.</p>
+                <p class="intro-bubble" style="text-align:left; font-size: 1.5em;">I'm Daksh Kaul, an <span style="font-weight:bold;">enthusiastic, eager, and easy-going</span> programmer who's exploring the vast world of coding. I have just embarked on this exciting path, honing my skills in various programming languages and technologies such as <span style="font-weight:bold;">Python, C, SQL, HTML, CSS, Rust*, and Git.</span> My journey has equipped me with essential skills in algorithms, data structures, computer science, and more. I am also well-versed in subjects like Physics, Statistics, Mathematics, English, and Spanish, thanks to my <span style="font-weight:bold;">International Baccalaureate (IB)</span> background. Additionally, I hold Microsoft Certification in Word and PowerPoint, and I have a solid understanding of UNIX-based systems like Linux.</p>
             </div>
 
 
@@ -79,27 +80,19 @@
 
             <div class="how-i-got-here-section">
 
-                <h1> >> How did you get here? </h1>
+                <h1>How did you get here? </h1>
 
 
-                <p style="text-align:justify;">How Did I Get Here?</p>
+                <h2 class="hdigh-bubble" style="text-align:left;">How Did I Get Here?</h2>
                 
-                <p style="text-align:justify;">Thats a though question to answer...</p>
+                <h2 class="hdigh-bubble" style="text-align:left;">Thats a though question to answer...</h2>
 
-                <p style="text-align:justify;">
-                Growing up, my life was marked by constant change. Moving from place to place as a child taught me the invaluable skill of adaptation, not just to new environments but also to the diverse people and cultures I encountered. This ability to embrace change and connect with others has shaped my perspective and approach to life.
-                </p>
-                
-                <p style="text-align:justify;">
-                Interestingly, I used to despise coding and programming. It seemed like an impenetrable maze of complexities that I was convinced I could never navigate. However, curiosity got the better of me, and one day, I decided to give it a shot on my own. To my surprise, I found an entirely new world waiting for me. Coding became more than just lines of text; it became a canvas for creativity and problem-solving.
+                <p class="hdigh-body-bubble" style="text-align:left; text-size:2em">
+                Growing up amidst constant change, I honed my adaptability and cultural understanding, skills that have profoundly shaped my worldview. Initially hesitant, I ventured into coding driven by curiosity, transforming it from a daunting maze into a creative outlet. My diverse educational background through the International Baccalaureate (IB) program provided a comprehensive understanding of various subjects, establishing a strong foundation for my programming journey.                
                 </p>
 
-                <p style="text-align:justify;">
-                My educational journey further fueled my passion. Pursuing the International Baccalaureate (IB) program in high school provided me with a holistic understanding of various subjects, from mathematics and physics to languages and statistics. This diverse knowledge laid a strong foundation for my venture into the realm of programming.
-                </p>
-
-                <p style="text-align:justify;">
-                So, how did I get here? Through a blend of adaptability, curiosity, and the willingness to challenge my own preconceptions. The detours and unexpected paths I took ultimately led me to discover my passion for programming, turning a once-dreaded endeavor into an exciting adventure. Now, as an aspiring programmer and enthusiastic learner, I am here, ready to explore the limitless possibilities this journey has to offer.
+                <p class="hdigh-body-bubble" style="text-align:left; text-size:2em">
+                This blend of adaptability and newfound passion fuels my enthusiasm as I embrace the exciting realm of programming. Armed with a holistic education and a thirst for knowledge, I am poised to explore the limitless possibilities this journey offers, eager to contribute to the ever-evolving world of technology.
                 </p>
             </div>
 
@@ -110,13 +103,11 @@
 
             <div class="skills-section">
 
-                <h1> > Skills? </h1>
-                <ul>
-                    <h2> >> I got some interesting ones to offer! </h2>
-                </ul>
+                <h1>Skills?</h1>
+                <h2 class="skills-bubble" style="text-align:left;">I got some interesting ones to offer!</h2>
 
 
-                <dl>
+                <dl class="skills-bubble" style="text-align:left;">
                     <dt for="Skill 1">
                         <span class="fa-solid fa-caret-right fa-xl" style="font-size:2em;"></span> Back-end Dev
                     </dt>
@@ -161,34 +152,47 @@
 
             <div class="project-section">
 
-                <h2> > Hey, wanna see some of my projects? </h2>
-                <ul>
-                    <h2> >> Here are some! </h2>
-                </ul>
+                <h2>What projects have you made?</h2>
+
+                <h2 class="projects-bubble" style="text-align:left; text-size:2em">Here are some !</h2>
+
+                    <br>
 
                     <!--Project List-->
-                    <h2>
+                    <div>
+                    <h2 class="projects-bubble">
                         smplFetch
                     </h2>
-                    <img class="smplFetch-image" src="images/smplFetch.png" width=1000>
-                    <h3 style="text-align:justify;"> 
-                        >>> A simple to use system info fetch script for Linux, which includes basic and commonly used information for the user to display. It also includes - depending on fetch script version - different styles of header art.
+                    <div class="projects-content-bubble">
+                        <img class="smplFetch-image" src="images/smplFetch.png" width=1000>
+                    </div>
+                    <h3 class ="projects-bubble"> 
+                    A simple to use system info fetch script for Linux, which includes basic and commonly used information for the user to display. It also includes - depending on fetch script version - different styles of header art.
                     </h3>
+                    </div>
 
-                    <h2>
+                    <br>
+
+                    <h2 class="projects-bubble">
                         ShowMyKeys
                     </h2>
-                    <img class="showMyKeys-image" src="images/ShowMyKeys.png" width=1000>
-                    <h3 style="text-align:justify;"> 
-                        >>> ShowMyKeys creates a graphical keyboard using Tkinter and pynput modules, allowing you to visualize your keyboard presses in real-time. The GUI updates to show when a key is pressed or released, giving you a visual representation of your typing, this can be useful for learning to touch type or for streamers wanting to display their speedy combos to their viewers.
+                    <div class="projects-content-bubble">
+                        <img class="showMyKeys-image" src="images/ShowMyKeys.png" width=1000>
+                    </div>
+                    <h3 class="projects-bubble"> 
+                    ShowMyKeys creates a graphical keyboard using Tkinter and pynput modules, allowing you to visualize your keyboard presses in real-time. The GUI updates to show when a key is pressed or released, giving you a visual representation of your typing, this can be useful for learning to touch type or for streamers wanting to display their speedy combos to their viewers.
                     </h3>
 
-                    <h2>
+                    <br>
+
+                    <h2 class="projects-bubble">
                         Typr: Your Personal Typing Tutor
                     </h2>
+                    <div class="projects-content-bubble">
                     <img class="typr-image" src="images/Typr.png" width=1000>
-                    <h3 style="text-align:justify;"> 
-                        >>> Typr is a Flutter-based app built in Flet, designed for touch typing instruction, promoting typing best practices, optimizing hand and body posture. It offers various typing tests and tracks your progress in a profile section with an SQL database.
+                    </div>
+                    <h3 class="projects-bubble"> 
+                    Typr is a Flutter-based app built in Flet, designed for touch typing instruction, promoting typing best practices, optimizing hand and body posture. It offers various typing tests and tracks your progress in a profile section with an SQL database.
                     </h3>
             </div>
 
@@ -198,24 +202,24 @@
 
 
             <div class="contact-section">
-                <h2> > Wanna Contact Me? </h2>
-                <ul>
-                    <h2> >> Here. Don't be a stranger! </h2>
-                </ul>
+                <h2 class="contact-msg-bubble">Wanna Contact Me?</h2>
 
-                <div class="nav-bar">
-                    <button class="mail-btn" id="mail-btn">
-                        <i class="fa-solid fa-envelope fa-xl"></i> Mail
-                    </button>
+                <h2 class="contact-msg-bubble">Here, don't be a stranger!</h2>
 
-                    <button class="linkedin-btn" id="linkedin-btn">
-                        <i class="fa-brands fa-linkedin fa-xl"></i> LinkedIn
-                    </button>
+                <div class="contact-content-bubble">
+                        <button class="mail-btn" id="mail-btn">
+                            <i class="fa-solid fa-envelope fa-xl"></i> Mail
+                        </button>
 
-                    <button class="github-btn" id="github-btn">
-                        <i class="fa-brands fa-square-github fa-xl"></i> GitHub
-                    </button>
+                        <button class="linkedin-btn" id="linkedin-btn">
+                            <i class="fa-brands fa-linkedin fa-xl"></i> LinkedIn
+                        </button>
+
+                        <button class="github-btn" id="github-btn">
+                            <i class="fa-brands fa-square-github fa-xl"></i> GitHub
+                        </button>
                 </div>
+
             </div>
 
             <!--Contact Button Script-->
@@ -224,12 +228,13 @@
 
             <br>
             <br>
+            <br>
 
 
-            <div class="goodbye-section">
-                <h1> > Let's talk again soon. Bye! </h1>
+
+            <div class="blurb-bubble">
+                <h1>Let's talk again soon. Bye!</h1>
             </div>
-
     </div>
 
         <br>

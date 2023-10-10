@@ -58,7 +58,7 @@
 
 body {
     background-color: #000000;
-    padding: 1em;
+    padding: 0.5em;
     border-color: #FFFFFF;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 .typr-image {
-    max-width: 30%;
+    max-width: 50%;
     height: auto;
     width: auto;
 }
@@ -115,16 +115,6 @@ body {
     color: #FFFFFF;
     font-size: 1em;
     font-family: "Rubik", "Arial", "sans-serif";
-}
-
-.nav-bar {
-    background-color: #333333;
-    padding: 0.5em;
-    border-radius: 2em;
-    margin-bottom: 1em;
-    display: flex;
-    align-self: center;
-    justify-content: center;
 }
 
 .mail-btn {
@@ -138,6 +128,8 @@ body {
     padding: 0.5em;
     align-self: center;
     margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
 .linkedin-btn {
@@ -151,6 +143,8 @@ body {
     padding: 0.5em;
     align-self: center;
     margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
 .github-btn {
@@ -164,12 +158,8 @@ body {
     padding: 0.5em;
     align-self: center;
     margin-right: 0.5em;
-}
-
-.goodbye-section {
-    color: #FFFFFF;
-    font-size: 1.5em;
-    font-family: "Rubik", "Arial", "sans-serif";
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
 .copy-left {
@@ -192,4 +182,254 @@ body {
     margin-bottom: 1em;
     font-size: 1em;
     font-family: "Rubik", "Arial", "sans-serif";
+}
+
+.blurb-bubble {
+  background-color: #007bff;
+  color: white;
+  border-radius: 2em;
+  padding: 1em 1em;
+  max-width: 60%;
+  position: relative;
+  font-family: "Rubik", "Arial", "sans-serif";
+  text-align: left;
+}
+
+.blurb-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #007bff transparent transparent;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+}
+
+.name-bubble {
+  background-color: #007bff;
+  color: white;
+  border-radius: 1em;
+  padding: 1em 1em;
+  max-width: 40%;
+  position: relative;
+  font-family: "Rubik", "Arial", "sans-serif";
+  text-align: left;
+}
+
+.name-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #007bff transparent transparent;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+}
+
+.intro-bubble {
+  background-color: #007bff;
+  color: white;
+  border-radius: 1em;
+  padding: 1em 1em;
+  max-width: 60%;
+  width: 80em;
+  position: relative;
+  font-family: "Rubik", "Arial", "sans-serif";
+  text-align: center;
+}
+
+.intro-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #007bff transparent transparent;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+}
+
+.hdigh-bubble{
+  background-color: #007bff;
+  color: white;
+  border-radius: 1em;
+  padding: 1em 1em;
+  max-width: 40%;
+  width: 80em;
+  position: relative;
+  font-family: "Rubik", "Arial", "sans-serif";
+  text-align: center;
+}
+
+.hdigh-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #007bff transparent transparent;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+}
+
+.hdigh-body-bubble{
+  background-color: #007bff;
+  color: white;
+  border-radius: 1em;
+  padding: 1em 1em;
+  max-width: 50%;
+  font-size: 1.5em;
+  width: 80em;
+  position: relative;
+  font-family: "Rubik", "Arial", "sans-serif";
+  text-align: center;
+}
+
+.hdigh-body-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #007bff transparent transparent;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+}
+
+.skills-bubble{
+  background-color: #007bff;
+  color: white;
+  border-radius: 1em;
+  padding: 1em 1em;
+  max-width: 40%;
+  width: 80em;
+  position: relative;
+  font-family: "Rubik", "Arial", "sans-serif";
+  text-align: center;
+}
+
+.skills-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #007bff transparent transparent;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+}
+
+.projects-bubble{
+  background-color: #007bff;
+  color: white;
+  border-radius: 1em;
+  padding: 1em 1em;
+  max-width: 30%;
+  width: 80em;
+  position: relative;
+  font-family: "Rubik", "Arial", "sans-serif";
+  text-align: left;
+}
+
+.projects-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #007bff transparent transparent;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+}
+
+.projects-content-bubble{
+  background-color: #007bff;
+  color: white;
+  border-radius: 1em;
+  padding: 0.5em 0.5em;
+  max-width: 50%;
+  width: 80em;
+  position: relative;
+  font-family: "Rubik", "Arial", "sans-serif";
+  text-align: center;
+}
+
+.projects-content-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #007bff transparent transparent;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+}
+
+.contact-msg-bubble{
+  background-color: #007bff;
+  color: white;
+  border-radius: 1em;
+  padding: 1em 1em;
+  max-width: 30%;
+  width: 80em;
+  position: relative;
+  font-family: "Rubik", "Arial", "sans-serif";
+  text-align: left;
+}
+
+.contact-msg-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #007bff transparent transparent;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+}
+
+.contact-content-bubble{
+  background-color: #007bff;
+  color: white;
+  border-radius: 1em;
+  padding: 0.5em 0.5em;
+  max-width: 50%;
+  width: 80em;
+  position: relative;
+  font-family: "Rubik", "Arial", "sans-serif";
+  text-align: center;
+  align-items: safe;
+}
+
+.contact-content-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #007bff transparent transparent;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
 }
