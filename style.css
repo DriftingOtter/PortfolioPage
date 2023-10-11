@@ -189,8 +189,8 @@ body {
   background-color: #007bff;
   color: white;
   border-radius: 2em;
-  padding: 1em 1em;
-  max-width: 60%;
+  padding: 1em;
+  max-width: fit-content;
   position: relative;
   font-family: "Rubik", "Arial", "sans-serif";
   text-align: left;
@@ -214,7 +214,7 @@ body {
   color: white;
   border-radius: 1em;
   padding: 1em 1em;
-  max-width: 40%;
+  max-width: fit-content;
   position: relative;
   font-family: "Rubik", "Arial", "sans-serif";
   text-align: left;
@@ -238,7 +238,7 @@ body {
   color: white;
   border-radius: 1em;
   padding: 1em 1em;
-  max-width: 60%;
+  max-width: fit-content;
   width: 80em;
   position: relative;
   font-family: "Rubik", "Arial", "sans-serif";
@@ -263,7 +263,7 @@ body {
   color: white;
   border-radius: 1em;
   padding: 1em 1em;
-  max-width: 40%;
+  max-width: fit-content;
   width: 80em;
   position: relative;
   font-family: "Rubik", "Arial", "sans-serif";
@@ -288,7 +288,7 @@ body {
   color: white;
   border-radius: 1em;
   padding: 1em 1em;
-  max-width: 50%;
+  max-width: fit-content;
   font-size: 1.5em;
   width: 80em;
   position: relative;
@@ -314,10 +314,11 @@ body {
   color: white;
   border-radius: 1em;
   padding: 1em 1em;
-  max-width: 40%;
+  max-width: fit-content;
   width: 80em;
   position: relative;
   font-family: "Rubik", "Arial", "sans-serif";
+  font-size: 1.5em;
   text-align: center;
 }
 
@@ -339,7 +340,7 @@ body {
   color: white;
   border-radius: 1em;
   padding: 1em 1em;
-  max-width: 30%;
+  max-width: fit-content;
   width: 80em;
   position: relative;
   font-family: "Rubik", "Arial", "sans-serif";
@@ -364,7 +365,7 @@ body {
   color: white;
   border-radius: 1em;
   padding: 0.5em 0.5em;
-  max-width: 50%;
+  max-width: fit-content;
   width: 80em;
   position: relative;
   font-family: "Rubik", "Arial", "sans-serif";
@@ -389,7 +390,7 @@ body {
   color: white;
   border-radius: 1em;
   padding: 1em 1em;
-  max-width: 30%;
+  max-width: fit-content;
   width: 80em;
   position: relative;
   font-family: "Rubik", "Arial", "sans-serif";
@@ -414,7 +415,7 @@ body {
   color: white;
   border-radius: 1em;
   padding: 0.5em 0.5em;
-  max-width: 50%;
+  max-width: fit-content;
   width: 80em;
   position: relative;
   font-family: "Rubik", "Arial", "sans-serif";
@@ -430,6 +431,55 @@ body {
   border-style: solid;
   border-width: 10px 15px 10px 0;
   border-color: transparent #007bff transparent transparent;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+}
+
+.usr-question-bubble {
+  background-color: #46e436;
+  color: white;
+  border-radius: 1em;
+  padding: 1em 1em;
+  margin-left: 60%;
+  max-width: 90%;
+  position: relative;
+  font-family: "Rubik", "Arial", "sans-serif";
+  text-align: right;
+}
+
+.usr-question-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #46e436 transparent transparent;
+  top: 50%;
+  right: -15px;
+  transform: rotate(-180deg) translateY(50%);
+}
+
+.goodbye-bubble {
+  background-color: #FF6969;
+  color: white;
+  border-radius: 2em;
+  padding: 1em;
+  max-width: fit-content;
+  position: relative;
+  font-family: "Rubik", "Arial", "sans-serif";
+  text-align: left;
+}
+
+.goodbye-bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #FF6969 transparent transparent;
   top: 50%;
   left: -15px;
   transform: translateY(-50%);
