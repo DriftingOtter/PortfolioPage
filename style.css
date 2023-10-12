@@ -319,7 +319,7 @@ body {
   position: relative;
   font-family: "Rubik", "Arial", "sans-serif";
   font-size: 1.5em;
-  text-align: center;
+  text-align: left;
 }
 
 .skills-bubble:before {
@@ -420,7 +420,7 @@ body {
   position: relative;
   font-family: "Rubik", "Arial", "sans-serif";
   text-align: center;
-  align-items: safe;
+  align-items: center;
 }
 
 .contact-content-bubble:before {
