@@ -25,6 +25,8 @@
     padding: 4em;
     border-radius: 1em;
     overflow: hidden;
+    padding-left:4em;
+    padding-right:4em;
 }
 
 .contact-bar {
@@ -178,8 +180,8 @@ body {
     background-color: #141414;
     color: #FFFFFF;
     padding: 1em;
+    margin-top:2em;
     border-radius: 2em;
-    margin-bottom: 1em;
     font-size: 1em;
     font-family: "Rubik", "Arial", "sans-serif";
 }
@@ -488,6 +490,7 @@ body {
   color: white;
   border-radius: 2em;
   padding: 1em;
+  margin-top:1em;
   max-width: fit-content;
   position: relative;
   font-family: "Rubik", "Arial", "sans-serif";
